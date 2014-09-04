@@ -88,7 +88,8 @@ require('load-grunt-tasks')(grunt);
     watch: {
       gruntfile: {
         files: '<%= bowerInstall.target.src %>',
-        tasks: ['']
+        livereload: true,
+        // tasks: ['']
       },
       // lib_test: {
       //   files: '<%= jshint.lib_test.src %>',
