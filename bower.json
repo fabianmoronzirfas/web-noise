@@ -1,0 +1,27 @@
+{
+  "name": "web-noise",
+  "version": "0.0.1",
+  "authors": [
+    "fabiantheblind <icke@fabianmoronzirfas.me>"
+  ],
+  "description": "writing user input to a text file (mechanical turk proof of concept)",
+  "main": "index.html",
+  "keywords": [
+    "fhp",
+    "mechanicalturk",
+    "input-output"
+  ],
+  "license": "MIT",
+  "homepage": "fmz.pictor.uberspace.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
