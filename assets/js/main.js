@@ -24,7 +24,7 @@ $(document).ready(function() {
       url: "save.php",
       data: dataString,
       success: function() {
-        $('#submitit,#ex1').hide(1500,function(){
+        $('#submitit, .myslider').hide(1500,function(){
           console.log("button hidden");
         });
         $('#message').html("✓ Logged!")
