@@ -24,10 +24,10 @@ $(document).ready(function() {
       url: "save.php",
       data: dataString,
       success: function() {
-        $('#submitit, .myslider').hide(1500,function(){
+        $('#submitit').hide(1500, function(){
           console.log("button hidden");
         });
-        $('#message').html("✓ Logged!")
+        $('#message').html("Value Logged! ✓ Thank you")
           .hide()
         .fadeIn(1500, function() {
           $('#message').append("");
