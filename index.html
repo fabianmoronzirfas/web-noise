@@ -1,41 +1,46 @@
 <!doctype html>
-
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-  <title>a title</title>
-  <meta name="description" content="something">
-  <meta name="author" content="me">
-  <link type="css" rel="stylesheet" href="assets/css/styles.css?v=1.0">
-  <!-- bower:css -->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-  <!-- endbower -->
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1 center-block block">
-        <div class="in text-center pagination-centered">
-  <form method="post" name="tasktitleform" action="">
-    <div class="title"></div>
-    <input class="tasktitle" id="tasktitle" name="tasktitle" type="text" value="Task name..." onfocus="if (this.value == 'Task name...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Task name...';}" />
-    <input class="save" value="Save" type="button" />
-</form>
-        <button type="button" class="btn btn-default" id="submitit">Button</button>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Input A Value</title>
+        <meta name="description" content="minmal form to get input values">
+        <meta name="author" content="fabiantheblind">
+        <link type="css" rel="stylesheet" href="assets/css/styles.css?v=1.0">
+        <!-- bower:css -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css" />
+        <!-- endbower -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 center-block block">
+                    <div class="in text-center pagination-centered">
+                        <!-- <form method="post" name="tasktitleform" action=""> -->
+                        <div class="title"></div>
+                        <input id="ex1" data-slider-id='ex1Slider' type="text"/>
+                        <!-- </form> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 center-block block">
+                    <div class="in text-center pagiantion-centered">
+                        <button type="button" class="btn btn-default" id="submitit">Save</button>
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
-    </div>
-  </div>
-  <!-- bower:js -->
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- endbower -->
-  <script src="assets/js/main.js"></script>
-</body>
+        <!-- bower:js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="bower_components/jquery-bridget/jquery.bridget.js"></script>
+        <script src="bower_components/seiyria-bootstrap-slider/js/bootstrap-slider.js"></script>
+        <!-- endbower -->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
