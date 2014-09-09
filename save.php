@@ -5,7 +5,7 @@ date_default_timezone_set("Europe/Berlin");
 $date = strftime("%Y-%m-%d-%A");
 $timesaved = strftime("%H:%M:%S");
 $thetime = $_POST['current_time'];
-$file = "saved/" . $date . ".txt";
+$file = "saved/values.txt";
 $cont = $thetime . ', ' . $val . '' . "\n";
 
 $f = fopen($file, 'a+');
