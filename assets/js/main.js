@@ -12,7 +12,6 @@ $(document).ready(function() {
     }
   });
 
-
   $('#submitit').click(function(e) {
     var value = sldr.slider('getValue');
 
