@@ -23,12 +23,9 @@ $(document).ready(function() {
       type: "POST",
       url: "save.php",
       data: dataString,
-
       success: function() {
-        $('.title').html("");
         $('#message').html("✓ Logged!")
           .hide()
-
         .fadeIn(1500, function() {
           $('#message').append("");
         });
