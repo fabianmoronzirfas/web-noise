@@ -1,4 +1,13 @@
 {
+"name": "web-noise",
+ "version": "0.1.0",
+ "description": "",
+ "homepage": "",
+ "main": "index.html",
+ "repository": {
+ "type": "git",
+ "url": ""
+ },
   "engines": {
     "node": ">= 0.10.0"
   },

@@ -1,7 +1,9 @@
 web-noise
 =========
 
-proof of concept fiddle
+proof of concept fiddle  
+
+based on [this](http://problemsolv.in/how-to-save-input-value-to-text-file-with-jquery/) blog post by [problemsolv.in](http://problemsolv.in/)  
 
 
 Copyright (c) 2014 Fabian "fabiantheblind" Moron Zirfas
